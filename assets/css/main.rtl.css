@@ -161,11 +161,22 @@ h6 {
 .header .logo img {
   max-height: 32px;
   margin-right: 8px;
-  filter: brightness(0) invert(1);
 }
 
-.scrolled .header .logo img {
-  filter: none;
+.header img.logo-original {
+  display: block;
+}
+
+.header img.logo-white {
+  display: none;
+}
+
+.scrolled .header img.logo-original {
+  display: none;
+}
+
+.scrolled .header img.logo-white {
+  display: block;
 }
 
 .header .logo h1 {
