@@ -841,39 +841,37 @@ section,
   margin: 0 0 20px 0;
   font-size: 48px;
   font-weight: 700;
-  line-height: 56px;
-  color: color-mix(in srgb, var(--heading-color), transparent 30%);
+  color: var(--heading-color);
 }
 
 .hero h1 span {
   color: var(--heading-color);
-  border-bottom: 4px solid var(--accent-color);
+  border-bottom: 4px solid var(--heading-color);
 }
 
 .hero p {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: var(--heading-color);
   margin: 5px 0 30px 0;
   font-size: 22px;
   font-weight: 400;
 }
 
 .hero .btn-get-started {
-  color: var(--contrast-color);
-  background: var(--accent-color);
+  color: #000000;
+  background: #EED376;
   font-family: var(--heading-font);
-  font-weight: 400;
+  font-weight: bold;
   font-size: 15px;
-  letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 28px 12px 28px;
+  padding: 10px 40px 12px 40px;
   border-radius: 50px;
   transition: 0.5s;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
 .hero .btn-get-started:hover {
-  color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  color: #000000;
+  background: color-mix(in srgb, #EED376, transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
@@ -992,6 +990,21 @@ section,
   100% {
     transform: translateY(-10px);
   }
+}
+
+/*--------------------------------------------------------------
+# partners Section
+--------------------------------------------------------------*/
+.partners {
+  padding-top: 100px;
+}
+
+.partners .partner-logo {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  width: 250px;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 15px 30px;
 }
 
 /*--------------------------------------------------------------
