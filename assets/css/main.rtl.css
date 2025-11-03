@@ -211,6 +211,10 @@ h6 {
   --background-color: #ffffff;
 }
 
+.scrolled .mobile-nav-toggle {
+  color: black;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -762,13 +766,14 @@ h6 {
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
-section,
-.section {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  padding: 60px 0;
-  scroll-margin-top: 100px;
-  overflow: clip;
+
+#hero {
+    color: var(--default-color);
+    padding: 60px 0;
+    scroll-margin-top: 100px;
+    overflow: clip;
+    background: radial-gradient(at 50% 40%, hsla(0, 85%, 35%, 0.8) 0px, transparent 50%), radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
+    background-color: #000;;
 }
 
 @media (max-width: 1199px) {
@@ -842,7 +847,6 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 10%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -951,21 +955,21 @@ section,
 .hero .wave1 use {
   animation: move-forever1 10s linear infinite;
   animation-delay: -2s;
-  fill: var(--default-color);
+  fill: white;
   opacity: 0.6;
 }
 
 .hero .wave2 use {
   animation: move-forever2 8s linear infinite;
   animation-delay: -2s;
-  fill: var(--default-color);
+  fill: white;
   opacity: 0.4;
 }
 
 .hero .wave3 use {
   animation: move-forever3 6s linear infinite;
   animation-delay: -2s;
-  fill: var(--default-color);
+  fill: white;
 }
 
 @keyframes move-forever1 {
