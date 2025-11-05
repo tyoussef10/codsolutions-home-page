@@ -1,4 +1,4 @@
-html[dir='rtl'] body {
+html[dir="rtl"] body {
   direction: rtl;
 }
 
@@ -16,7 +16,9 @@ html[dir='rtl'] body {
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Cairo", "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --default-font: "Cairo", "Roboto", system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Cairo", "Raleway", sans-serif;
   --nav-font: "Cairo", "Poppins", sans-serif;
 }
@@ -236,12 +238,12 @@ h6 {
     position: relative;
   }
 
-  .navmenu>ul>li {
+  .navmenu > ul > li {
     white-space: nowrap;
     padding: 15px 14px;
   }
 
-  .navmenu>ul>li:last-child {
+  .navmenu > ul > li:last-child {
     padding-right: 0;
   }
 
@@ -273,7 +275,7 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu>ul>li>a:before {
+  .navmenu > ul > li > a:before {
     content: "";
     position: absolute;
     height: 2px;
@@ -286,13 +288,13 @@ h6 {
   }
 
   .navmenu a:hover:before,
-  .navmenu li:hover>a:before,
+  .navmenu li:hover > a:before,
   .navmenu .active:before {
     visibility: visible;
     width: 25px;
   }
 
-  .navmenu li:hover>a,
+  .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-color);
@@ -331,11 +333,11 @@ h6 {
 
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
-  .navmenu .dropdown ul li:hover>a {
+  .navmenu .dropdown ul li:hover > a {
     color: var(--nav-dropdown-hover-color);
   }
 
-  .navmenu .dropdown:hover>ul {
+  .navmenu .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -347,7 +349,7 @@ h6 {
     visibility: hidden;
   }
 
-  .navmenu .dropdown .dropdown:hover>ul {
+  .navmenu .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     right: -100%;
@@ -449,7 +451,7 @@ h6 {
     background-color: rgba(33, 37, 41, 0.1);
   }
 
-  .navmenu .dropdown>.dropdown-active {
+  .navmenu .dropdown > .dropdown-active {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
   }
@@ -476,7 +478,7 @@ h6 {
     transition: 0.3s;
   }
 
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu > ul {
     display: block;
   }
 }
@@ -493,7 +495,8 @@ h6 {
 
 .footer .footer-top {
   padding-top: 50px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .footer-about .logo {
@@ -601,7 +604,7 @@ h6 {
   border-color: var(--accent-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type=email] {
+.footer .footer-newsletter .newsletter-form input[type="email"] {
   border: 0;
   padding: 4px;
   width: 100%;
@@ -609,11 +612,11 @@ h6 {
   color: var(--default-color);
 }
 
-.footer .footer-newsletter .newsletter-form input[type=email]:focus-visible {
+.footer .footer-newsletter .newsletter-form input[type="email"]:focus-visible {
   outline: none;
 }
 
-.footer .footer-newsletter .newsletter-form input[type=submit] {
+.footer .footer-newsletter .newsletter-form input[type="submit"] {
   border: 0;
   font-size: 16px;
   padding: 0 20px;
@@ -624,13 +627,14 @@ h6 {
   border-radius: 0 4px 4px 0;
 }
 
-.footer .footer-newsletter .newsletter-form input[type=submit]:hover {
+.footer .footer-newsletter .newsletter-form input[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
 .footer .copyleft {
   padding: 25px 0;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .copyleft p {
@@ -730,7 +734,8 @@ h6 {
 
 .page-title .heading {
   padding: 160px 0 80px 0;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .page-title .heading h1 {
@@ -752,11 +757,11 @@ h6 {
   font-weight: 600;
 }
 
-.page-title nav ol li+li {
+.page-title nav ol li + li {
   padding-left: 10px;
 }
 
-.page-title nav ol li+li::before {
+.page-title nav ol li + li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
@@ -768,16 +773,20 @@ h6 {
 --------------------------------------------------------------*/
 
 #hero {
-    color: var(--default-color);
-    padding: 60px 0;
-    scroll-margin-top: 100px;
-    overflow: clip;
-    background: radial-gradient(at 50% 40%, hsla(0, 85%, 35%, 0.8) 0px, transparent 50%), radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
-    background-color: #000;;
+  color: var(--default-color);
+  padding: 60px 0;
+  scroll-margin-top: 100px;
+  overflow: clip;
+  background: radial-gradient(
+      at 50% 40%,
+      hsla(0, 85%, 35%, 0.8) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
+  background-color: #000;
 }
 
 @media (max-width: 1199px) {
-
   section,
   .section {
     scroll-margin-top: 66px;
@@ -876,15 +885,15 @@ h6 {
   font-weight: 400;
 }
 
-  .item_i p {
-    font-size: 18px !important;
-  }
+.item_i p {
+  font-size: 18px !important;
+}
 
 .hero .cta-btn {
   font-size: 1.25rem; /* ~20px */
   padding: 0.9rem 2.2rem;
-  background-color: #DC5D47;
-  border: 2px solid #DC5D47;
+  background-color: #dc5d47;
+  border: 2px solid #dc5d47;
   color: white;
   transition: all 0.4s ease;
   box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
@@ -892,14 +901,14 @@ h6 {
 
 .hero .cta-btn:hover {
   background-color: #fdf9f8;
-  color: #DC5D47;
+  color: #dc5d47;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
 }
 
 .hero .btn-get-started {
   color: #000000;
-  background: #EED376;
+  background: #eed376;
   font-family: var(--heading-font);
   font-weight: bold;
   font-size: 15px;
@@ -912,7 +921,7 @@ h6 {
 
 .hero .btn-get-started:hover {
   color: #000000;
-  background: color-mix(in srgb, #EED376, transparent 15%);
+  background: color-mix(in srgb, #eed376, transparent 15%);
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
 }
 
@@ -1040,24 +1049,61 @@ h6 {
 /*--------------------------------------------------------------
 # partners Section
 --------------------------------------------------------------*/
-.partners {
-  padding-top: 50px;
+
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 0; 
+  box-shadow: none;
 }
 
-.partners .partner-logo {
+.marquee-content {
+  width: max-content;
+  display: flex;
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.logo {
+  width: 150px;
+  height: 50px;
+  max-width: 100%;
+  height: auto;
   filter: grayscale(100%);
+  transition: all 0.4s ease;
   opacity: 0.7;
-  width: 200px;
-  transition: all 0.3s ease-in-out 0s;
-  padding: 15px 30px;
 }
 
-.partners .partner-logo:hover {
+.logo:hover {
   filter: none;
   opacity: 1;
   transform: scale(1.1);
 }
 
+.header-text {
+  color: #343a40;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
 /*--------------------------------------------------------------
 # Steps Section
 --------------------------------------------------------------*/
@@ -1211,7 +1257,6 @@ h6 {
 }
 
 @media (max-width: 768px) {
-
   .about .icon-boxes .col-md-6:nth-child(2) .icon-box,
   .about .icon-boxes .col-md-6:nth-child(4) .icon-box {
     margin-top: 0;
@@ -1310,12 +1355,12 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
 
-.details .features-item+.features-item {
+.details .features-item + .features-item {
   margin-top: 100px;
 }
 
 @media (max-width: 640px) {
-  .details .features-item+.features-item {
+  .details .features-item + .features-item {
     margin-top: 40px;
   }
 }
@@ -1800,7 +1845,7 @@ h6 {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-item+.info-item {
+.contact .info-item + .info-item {
   margin-top: 40px;
 }
 
@@ -1840,31 +1885,35 @@ h6 {
   height: 100%;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+  background-color: color-mix(
+    in srgb,
+    var(--background-color),
+    transparent 50%
+  );
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -1873,7 +1922,7 @@ h6 {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
