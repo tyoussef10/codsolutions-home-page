@@ -1060,7 +1060,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section#partners {
-  --partners-bg-color: gray;
+  --partners-bg-color: rgb(248, 242, 242);
   background-color: var(--partners-bg-color);
 }
 
