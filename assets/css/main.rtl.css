@@ -1054,14 +1054,14 @@ h6 {
   width: 100%;
   overflow: hidden;
   background-color: #ffffff;
-  padding: 0; 
+  padding: 0;
   box-shadow: none;
 }
 
 .marquee-content {
   width: max-content;
   display: flex;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 25s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -1103,6 +1103,130 @@ h6 {
   margin-bottom: 2.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+/*--------------------------------------------------------------
+# Services Section
+--------------------------------------------------------------*/
+
+        /* CARD CONTAINER */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            /* max-width: 320px; */
+            width: 100%;
+            background-color: #fff;
+            border-radius: 0.5rem; /* 16px */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+
+        /* HOVER EFFECT */
+        .card:hover {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            transform: scale(1.02);
+        }
+
+        /* IMAGE CONTAINER (To ensure 1:1 aspect ratio without Tailwind) */
+        .card-image-container {
+            width: 100%;
+            padding-bottom: 100%; /* Creates a 1:1 aspect ratio block */
+            position: relative;
+            background-color: #f3f4f6;
+        }
+
+        .card-image-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* CONTENT AREA */
+        .card-content {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .card-title {
+            font-size: 1.25rem; /* 20px */
+            font-weight: 600;
+            color: #1f2937;
+            letter-spacing: -0.025em;
+            margin-bottom: 0;
+        }
+
+        .card-description {
+            font-size: 1.1rem; /* 14px */
+            color: #6b7280;
+            margin-top: 0.25rem; /* 4px */
+        }
+
+/* .services-section .service-card {
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.services-section .service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  background: linear-gradient(180deg, #ffffff 0%, #f8f9ff 100%);
+} */
+
+.services-section .image-container {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .services-section .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+} */
+
+/* .services-section .service-card:hover .image-container img {
+  transform: scale(1.05);
+}
+
+.services-section h5 {
+  color: #222;
+} */
+
+/* .services-section p {
+  font-size: 0.9rem;
+} */
+
+@media (max-width: 767px) {
+  /* .services-section .service-card {
+    width: 100%;
+    max-width: 330px;
+  } */
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}
+@media (max-width: 420px) {
+  /* .services-section .service-card {
+    width: 100%;
+    max-width: 330px;
+  } */
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px;
+  }
 }
 /*--------------------------------------------------------------
 # Steps Section
