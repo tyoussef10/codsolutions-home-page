@@ -880,6 +880,22 @@ h6 {
     font-size: 18px !important;
   }
 
+.hero .cta-btn {
+  font-size: 1.25rem; /* ~20px */
+  padding: 0.9rem 2.2rem;
+  background-color: #DC5D47;
+  border: 2px solid #DC5D47;
+  color: white;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
+}
+
+.hero .cta-btn:hover {
+  background-color: #fdf9f8;
+  color: #DC5D47;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
+}
 
 .hero .btn-get-started {
   color: #000000;
