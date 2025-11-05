@@ -41,7 +41,8 @@ html[dir="rtl"] body {
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;
+  /* --nav-color: #ffffff; */
+  --nav-color: black;
   /* The default color of the main navmenu links */
   --nav-hover-color: #000000;
   /* Applied to main navmenu links when they are hovered over or active */
@@ -774,16 +775,12 @@ h6 {
 
 #hero {
   color: var(--default-color);
-  padding: 60px 0;
+  padding: 220px 0;
   scroll-margin-top: 100px;
   overflow: clip;
-  background: radial-gradient(
-      at 50% 40%,
-      hsla(0, 85%, 35%, 0.8) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
-  background-color: #000;
+  /* background: radial-gradient(at 50% 40%,hsla(0, 85%, 35%, 0.8) 0px,transparent 50%),radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%); */
+  background: radial-gradient(at 50% 40%, hsla(0, 85%, 35%, 0.8) 0px, transparent 50%), radial-gradient(at 0% 0%, hsl(0deg 0% 100%) 0px, transparent 50%);
+  /* background-color: #000; */
 }
 
 @media (max-width: 1199px) {
@@ -1073,7 +1070,7 @@ h6 {
   }
 }
 
-.logo-item {
+.marquee-container .logo-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1081,7 +1078,7 @@ h6 {
   flex-shrink: 0;
 }
 
-.logo {
+.marquee-container .logo {
   width: 150px;
   height: 50px;
   max-width: 100%;
@@ -1091,83 +1088,86 @@ h6 {
   opacity: 0.7;
 }
 
-.logo:hover {
+.marquee-container .logo:hover {
   filter: none;
   opacity: 1;
   transform: scale(1.1);
 }
 
-.header-text {
+/* TODO: change .logo above to something more unique */
+
+/* .marquee-container .header-text {
   color: #343a40;
   font-weight: 600;
   margin-bottom: 2.5rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-}
+} */
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 
-        /* CARD CONTAINER */
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 20px;
-            padding: 20px;
-        }
-        .card {
-            /* max-width: 320px; */
-            width: 100%;
-            background-color: #fff;
-            border-radius: 0.5rem; /* 16px */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            cursor: pointer;
-        }
+/* CARD CONTAINER */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  /* max-width: 320px; */
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.5rem; /* 16px */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
 
-        /* HOVER EFFECT */
-        .card:hover {
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-            transform: scale(1.02);
-        }
+/* HOVER EFFECT */
+.card:hover {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  transform: scale(1.02);
+}
 
-        /* IMAGE CONTAINER (To ensure 1:1 aspect ratio without Tailwind) */
-        .card-image-container {
-            width: 100%;
-            padding-bottom: 100%; /* Creates a 1:1 aspect ratio block */
-            position: relative;
-            background-color: #f3f4f6;
-        }
+/* IMAGE CONTAINER (To ensure 1:1 aspect ratio without Tailwind) */
+.card-image-container {
+  width: 100%;
+  padding-bottom: 100%; /* Creates a 1:1 aspect ratio block */
+  position: relative;
+  background-color: #f3f4f6;
+}
 
-        .card-image-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
+.card-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-        /* CONTENT AREA */
-        .card-content {
-            padding: 1rem;
-            text-align: center;
-        }
+/* CONTENT AREA */
+.card-content {
+  padding: 1rem;
+  text-align: center;
+}
 
-        .card-title {
-            font-size: 1.25rem; /* 20px */
-            font-weight: 600;
-            color: #1f2937;
-            letter-spacing: -0.025em;
-            margin-bottom: 0;
-        }
+.card-title {
+  font-size: 1.25rem; /* 20px */
+  font-weight: 600;
+  color: #1f2937;
+  letter-spacing: -0.025em;
+  margin-bottom: 0;
+}
 
-        .card-description {
-            font-size: 1.1rem; /* 14px */
-            color: #6b7280;
-            margin-top: 0.25rem; /* 4px */
-        }
+.card-description {
+  font-size: 1.1rem; /* 14px */
+  color: #6b7280;
+  margin-top: 0.25rem; /* 4px */
+}
 
 /* .services-section .service-card {
   transition: all 0.4s ease;
