@@ -2064,3 +2064,15 @@ section#partners {
 .starter-section {
   /* Add your styles here */
 }
+
+
+#hero {
+
+
+    background-image: url('../../assets/img//graphics/map.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 120px 0;   
+
+}
