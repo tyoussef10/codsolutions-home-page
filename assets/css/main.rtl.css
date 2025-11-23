@@ -1099,7 +1099,7 @@ section#partners {
   height: 50px;
   max-width: 100%;
   height: auto;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: all 0.4s ease;
   opacity: 0.7;
 }
@@ -2078,4 +2078,11 @@ section#partners {
 
 .mt-20 {
   margin-top: 90px;
+}
+
+/* video player styles */
+
+#custom-player-container {
+  --plyr-color-main: #ed523d;
+  width: 50%;
 }

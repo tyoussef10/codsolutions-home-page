@@ -133,6 +133,9 @@
                             class="btn fw-bold d-flex align-items-center justify-content-center border-2 rounded-pill px-4 py-3 mb-4 cta-btn">
                             انضم إلينا
                         </button>
+                        <div id="custom-player-container">
+                            <div id="custom-player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1171,6 +1174,17 @@
 
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Video Player Files -->
+    <link rel="stylesheet" href="assets/css/plys.css" />
+    <script src="assets/js/plyr.js"></script>
+    <script>
+          const player = new Plyr("#custom-player", {
+            controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+            keyboard: { focused: true, global: false }
+          })
+    </script>
+
 </body>
 
 </html>
