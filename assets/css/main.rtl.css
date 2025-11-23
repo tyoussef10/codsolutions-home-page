@@ -41,8 +41,7 @@ html[dir="rtl"] body {
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  /* --nav-color: #ffffff; */
-  --nav-color: black;
+  --nav-color: white;
   /* The default color of the main navmenu links */
   --nav-hover-color: #000000;
   /* Applied to main navmenu links when they are hovered over or active */
@@ -883,13 +882,15 @@ h6 {
 }
 
 .hero h1 span {
-  color: var(--heading-color);
-  border-bottom: 4px solid var(--heading-color);
+  /* color: var(--heading-color); */
+  /* border-bottom: 4px solid var(--heading-color); */
+  color: #ed523d;
+  border-bottom: 4px solid #ed523d;
 }
 
 .hero p {
   color: var(--heading-color);
-  margin: 5px 0 30px 0;
+  margin: 20px 0 30px 0;
   font-size: 22px;
   font-weight: 400;
 }
@@ -2066,16 +2067,15 @@ section#partners {
 
 
 #hero {
-
-
-    background-image: url('../../assets/img//graphics/map.svg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 120px 0;   
-
+  padding: 120px 0;
+  background-color: hsla(0, 0%, 0%, 1);
+  background-image: radial-gradient(at 50% 40%, hsl(8.86deg 100% 28.19%) 0px, transparent 50%), radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
 }
 
-.text-color-red{
-  color: red !important;
+#hero img {
+  filter: brightness(0) invert(1);
+}
+
+.mt-20 {
+  margin-top: 90px;
 }
