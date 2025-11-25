@@ -31,7 +31,7 @@ html[dir="rtl"] body {
   /* Default color used for the majority of the text content across the entire website */
   --heading-color: #040677;
   /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #ed543f;
+  --accent-color: #D82A21;
   /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff;
   /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
@@ -43,7 +43,7 @@ html[dir="rtl"] body {
 :root {
   --nav-color: white;
   /* The default color of the main navmenu links */
-  --nav-hover-color: #000000;
+  --nav-hover-color: #1A1A1A;
   /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff;
   /* Used as the background color for mobile navigation menu */
@@ -884,8 +884,8 @@ h6 {
 .hero h1 span {
   /* color: var(--heading-color); */
   /* border-bottom: 4px solid var(--heading-color); */
-  color: #ed523d;
-  border-bottom: 4px solid #ed523d;
+  color: #D82A21;
+  border-bottom: 4px solid #D82A21;
 }
 
 .hero p {
@@ -902,8 +902,8 @@ h6 {
 .hero .cta-btn {
   font-size: 1.25rem; /* ~20px */
   padding: 0.9rem 2.2rem;
-  background-color: #dc5d47;
-  border: 2px solid #dc5d47;
+  background-color: #D82A21;
+  border: 2px solid #D82A21;
   color: white;
   transition: all 0.4s ease;
   box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
@@ -911,7 +911,7 @@ h6 {
 
 .hero .cta-btn:hover {
   background-color: #fdf9f8;
-  color: #dc5d47;
+  color: #D82A21;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(220, 93, 71, 0.3);
 }
@@ -2066,11 +2066,22 @@ section#partners {
 }
 
 
-#hero {
+/* #hero {
   padding: 120px 0;
   background-color: hsla(0, 0%, 0%, 1);
   background-image: radial-gradient(at 50% 40%, hsl(8.86deg 100% 28.19%) 0px, transparent 50%), radial-gradient(at 0% 0%, hsla(342, 0%, 0%, 1) 0px, transparent 50%);
+} */
+
+
+#hero {
+  padding: 170px 0;
+  background-color: #1A1A1A;
+  background-image:
+    radial-gradient(at 50% 40%, #D82A21 0px, transparent 50%),
+    radial-gradient(at 0% 0%, #1A1A1A 0px, transparent 50%);
 }
+
+
 
 #hero img {
   filter: brightness(0) invert(1);
@@ -2083,6 +2094,27 @@ section#partners {
 /* video player styles */
 
 #custom-player-container {
-  --plyr-color-main: #ed523d;
+  --plyr-color-main: #D82A21;
   width: 50%;
+}
+
+
+.partners{
+
+    background-color: #FFFFFF !important;
+}
+
+
+.categories-section{
+  background-color: #FFFFFF !important;
+  background-color: #F4F2F2 !important;
+  
+}
+
+
+
+
+.details{
+
+    background-color: #FFFFFF !important;
 }
