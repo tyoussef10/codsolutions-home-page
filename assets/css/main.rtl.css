@@ -493,22 +493,6 @@ h6 {
   position: relative;
 }
 
-.footer .footer-wave {
-  position: absolute;
-  top: -60px;
-  left: 0;
-  width: 100%;
-  color: #17161b;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.footer .footer-wave svg {
-  display: block;
-  width: calc(100% + 1.5px);
-  height: 80px;
-}
-
 .footer .footer-top {
   padding-top: 50px;
   border-top: 1px solid
