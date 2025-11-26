@@ -2075,10 +2075,10 @@ section#partners {
 
 #hero {
   padding: 170px 0;
-  background-color: #1A1A1A;
-  background-image:
+  /* background-color: #1A1A1A; */
+  /* background-image:
     radial-gradient(at 50% 40%, #D82A21 0px, transparent 50%),
-    radial-gradient(at 0% 0%, #1A1A1A 0px, transparent 50%);
+    radial-gradient(at 0% 0%, #1A1A1A 0px, transparent 50%); */
 }
 
 
@@ -2117,4 +2117,14 @@ section#partners {
 .details{
 
     background-color: #FFFFFF !important;
+}
+
+.text-black{
+
+
+}
+
+.text-red{
+
+  color:  #D82A21 !important;
 }
