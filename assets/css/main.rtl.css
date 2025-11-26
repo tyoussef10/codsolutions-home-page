@@ -487,8 +487,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: #ffff;
+  background-color: #17161b;
   font-size: 14px;
   position: relative;
 }
@@ -514,7 +514,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   font-family: var(--heading-font);
-  color: var(--heading-color);
+  color: #ffff;
 }
 
 .footer .footer-about p {
@@ -531,13 +531,13 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #ffff;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: var(--accent-color);
+  color: #ffff;
   border-color: var(--accent-color);
 }
 
@@ -575,7 +575,7 @@ h6 {
 }
 
 .footer .footer-links ul a {
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color: #ffff;
   display: inline-block;
   line-height: 1;
 }
@@ -2105,7 +2105,6 @@ section#partners {
 
 
 .categories-section{
-  background-color: #FFFFFF !important;
   background-color: #F4F2F2 !important;
   
 }
@@ -2131,4 +2130,10 @@ section#partners {
 .black{
 
   color: #17161b !important;
+}
+
+
+.bg-light{
+  background-color: #F4F2F2 !important;
+  
 }
