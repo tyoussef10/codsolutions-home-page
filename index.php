@@ -1,10 +1,14 @@
+<?PHP
+    // include config
+    include('config.php');
+?>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>الصفحة الرئيسية - قالب بوتسلاندر بوتستراب</title>
+    <title>الصفحة الرئيسية - COD SOLUTIONS</title>
     <meta name="description" content="نحن فريق من المصممين الموهوبين نصنع مواقع ويب باستخدام Bootstrap" />
 
     <link href="assets/img/favicon.png" rel="icon" />
@@ -500,8 +504,6 @@
         </svg>
     </div>
     <footer id="footer" class="footer dark-background">
- 
-
 
         <div class="container footer-top">
             <div class="row gy-4">
@@ -510,32 +512,34 @@
                         <span class="sitename">COD SOLUTIONS</span>
                     </a>
                     <div class="footer-contact pt-3">
-                        <p>شارع آدم A108</p>
-                        <p>نيويورك، NY 535022</p>
+                        <p>
+                            <strong>العنوان: </strong>
+                            <span  dir="ltr">26 AV MERS SULTAN APT 3 ETG 1, Casablanca </span>
+                        </p>
                         <p class="mt-3">
-                            <strong>هاتف:</strong>
-                            <span>+1 5589 55488 55</span>
+                            <strong>الهاتف: </strong>
+                            <span dir="ltr">+212 6 98 81 32 40 </span>
                         </p>
                         <p>
-                            <strong>بريد إلكتروني:</strong>
+                            <strong>البريد إلكتروني:</strong>
                             <span>contact@codsolutions.ma</span>
                         </p>
                     </div>
                     <div class="social-links d-flex mt-4">
-                        <a href=""><i class="bi bi-facebook"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
-                        <a href=""><i class="bi bi-youtube"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/codsolutions.ma/"><i class="bi bi-facebook"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/cod.solutions.official/"><i class="bi bi-instagram"></i></a>
+                        <a target="_blank" href="https://www.youtube.com/@COD-Solutions"><i class="bi bi-youtube"></i></a>
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>روابط مفيدة</h4>
+                    <h4>اقسام الموقع</h4>
                     <ul>
-                        <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">نبذة عنا</a></li>
-                        <li><a href="#">خدماتنا</a></li>
-                        <li><a href="#">شروط الخدمة</a></li>
-                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#hero" class="active">الرئيسية</a></li>
+                        <li><a href="#details">خدماتنا</a></li>
+                        <li><a href="#partners">شركاؤنا</a></li>
+                        <li><a href="" target="_blank">تسجيل الدخول</a></li>
+                        <li><a href="" target="_blank">إنشاء حساب</a></li>
                     </ul>
                 </div>
 
