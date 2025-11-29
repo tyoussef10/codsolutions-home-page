@@ -220,6 +220,63 @@ h6 {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+.navmenu .nav-auth-btn,
+.navmenu .nav-auth-btn:focus {
+  border-radius: 999px;
+  font-weight: 700;
+  padding: 8px 18px;
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  line-height: 1.1;
+}
+
+.navmenu .nav-auth-btn:before,
+.navmenu .nav-auth-btn:focus:before {
+  display: none;
+}
+
+.navmenu .nav-auth-btn-ghost:hover,
+.navmenu .nav-auth-btn-ghost:focus {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 85%);
+  color: var(--accent-color);
+}
+
+.scrolled .navmenu .nav-auth-btn,
+.scrolled .navmenu .nav-auth-btn:focus,
+.scrolled .navmenu .nav-auth-btn-ghost,
+.scrolled .navmenu .nav-auth-btn-ghost:focus {
+  color: var(--accent-color) !important;
+}
+
+.navmenu .nav-auth-btn-solid,
+.navmenu .nav-auth-btn-solid:focus {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.navmenu .nav-auth-btn-solid:hover,
+.navmenu .nav-auth-btn-solid:focus:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: var(--contrast-color);
+}
+
+.scrolled .navmenu .nav-auth-btn-solid,
+.scrolled .navmenu .nav-auth-btn-solid:focus {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+  color: var(--contrast-color) !important;
+}
+
+.scrolled .navmenu .nav-auth-btn-solid:hover,
+.scrolled .navmenu .nav-auth-btn-solid:focus:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: var(--contrast-color) !important;
+}
+
 /* Desktop Navigation */
 @media (min-width: 1200px) {
   .navmenu {
@@ -245,6 +302,10 @@ h6 {
 
   .navmenu > ul > li:last-child {
     padding-right: 0;
+  }
+
+  .navmenu .nav-auth-item {
+    padding: 10px 10px;
   }
 
   .navmenu a,
@@ -401,6 +462,20 @@ h6 {
     justify-content: space-between;
     white-space: nowrap;
     transition: 0.3s;
+  }
+
+  .navmenu .nav-auth-item {
+    padding: 10px 20px;
+  }
+
+  .navmenu .nav-auth-btn,
+  .navmenu .nav-auth-btn:focus {
+    display: flex;
+    width: 100%;
+  }
+
+  .navmenu .nav-auth-item + .nav-auth-item {
+    padding-top: 0;
   }
 
   .navmenu a i,
