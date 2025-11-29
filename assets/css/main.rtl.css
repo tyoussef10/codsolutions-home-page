@@ -336,7 +336,7 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu > ul > li > a:before {
+  .navmenu > ul > li:not(.nav-auth-item) > a:before {
     content: "";
     position: absolute;
     height: 2px;
@@ -348,16 +348,16 @@ h6 {
     transition: all 0.3s ease-in-out 0s;
   }
 
-  .navmenu a:hover:before,
-  .navmenu li:hover > a:before,
-  .navmenu .active:before {
+  .navmenu > ul > li:not(.nav-auth-item) > a:hover:before,
+  .navmenu li:not(.nav-auth-item):hover > a:before,
+  .navmenu > ul > li:not(.nav-auth-item) > a.active:before {
     visibility: visible;
     width: 25px;
   }
 
-  .navmenu li:hover > a,
-  .navmenu .active,
-  .navmenu .active:focus {
+  .navmenu li:not(.nav-auth-item):hover > a,
+  .navmenu > ul > li:not(.nav-auth-item) > a.active,
+  .navmenu > ul > li:not(.nav-auth-item) > a.active:focus {
     color: var(--nav-color);
   }
 
