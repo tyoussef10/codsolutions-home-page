@@ -52,7 +52,7 @@
             <nav id="navmenu" class="navmenu">
                 <ul>
                     <li><a href="#hero" class="active">الرئيسية</a></li>
-                    <li><a href="#details">خدماتنا</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
                     <li><a href="#partners">شركاؤنا</a></li>
                     <li class="nav-auth-item">
                         <a class="btn nav-auth-btn nav-auth-btn-ghost" href="<?= $login_link;?>">تسجيل الدخول</a>
@@ -182,8 +182,8 @@
 
         <!-- /Stats Section -->
 
-        <!-- Details Section -->
-        <section id="details" class="services section overflow-hidden mt-5">
+        <!-- services Section -->
+        <section id="services" class="services section overflow-hidden mt-5">
 
 
             <div class="text-center mb-5 mt-4 ">
@@ -421,7 +421,7 @@
 
             </div>
         </section>
-        <!-- /Details Section -->
+        <!-- /services Section -->
 
 
         <!-- CTA Conversion Section -->
@@ -536,7 +536,7 @@
                     <h4>اقسام الموقع</h4>
                     <ul>
                         <li><a href="#hero" class="active">الرئيسية</a></li>
-                        <li><a href="#details">خدماتنا</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
                         <li><a href="#partners">شركاؤنا</a></li>
                         <li><a href="<?= $login_link;?>" target="_blank">تسجيل الدخول</a></li>
                         <li><a href="<?= $sign_up_link;?>" target="_blank">إنشاء حساب</a></li>
