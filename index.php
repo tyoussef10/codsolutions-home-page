@@ -55,10 +55,10 @@
                     <li><a href="#details">خدماتنا</a></li>
                     <li><a href="#partners">شركاؤنا</a></li>
                     <li class="nav-auth-item">
-                        <a class="btn nav-auth-btn nav-auth-btn-ghost" href="#login">تسجيل الدخول</a>
+                        <a class="btn nav-auth-btn nav-auth-btn-ghost" href="<?= $login_link;?>">تسجيل الدخول</a>
                     </li>
                     <li class="nav-auth-item">
-                        <a class="btn nav-auth-btn nav-auth-btn-solid" href="#signup">إنشاء حساب</a>
+                        <a class="btn nav-auth-btn nav-auth-btn-solid" href="<?= $sign_up_link;?> ?>">إنشاء حساب</a>
                     </li>
                     <!-- <li><a href="#contact">تواصل معنا</a></li> -->
                 </ul>
@@ -538,8 +538,8 @@
                         <li><a href="#hero" class="active">الرئيسية</a></li>
                         <li><a href="#details">خدماتنا</a></li>
                         <li><a href="#partners">شركاؤنا</a></li>
-                        <li><a href="" target="_blank">تسجيل الدخول</a></li>
-                        <li><a href="" target="_blank">إنشاء حساب</a></li>
+                        <li><a href="<?= $login_link;?>" target="_blank">تسجيل الدخول</a></li>
+                        <li><a href="<?= $sign_up_link;?>" target="_blank">إنشاء حساب</a></li>
                     </ul>
                 </div>
 
