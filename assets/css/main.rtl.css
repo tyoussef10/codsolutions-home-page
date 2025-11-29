@@ -915,18 +915,6 @@ h6 {
 
 }
 
-.hero .btn-get-started {
-  color: #000000;
-  background: #eed376;
-  font-family: var(--heading-font);
-  font-weight: bold;
-  font-size: 15px;
-  display: inline-block;
-  padding: 10px 40px 12px 40px;
-  border-radius: 50px;
-  transition: 0.5s;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.1);
-}
 
 .hero .btn-get-started:hover {
   color: #000000;
@@ -2160,14 +2148,20 @@ section#partners {
 }
 
 .cta-conversion__btn {
-  color: #d82a21;
+  color: #c5241d;
   border: none;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  font-size: 1.25rem; /* ~20px */
+  padding: 0.9rem 2.2rem;
+  background-color: white;
+  border: 2px solid #D82A21;
+  transition: all 0.4s ease;
 }
 
 .cta-conversion__btn:hover {
   color: #c5241d;
   background-color: #f7f7f7;
+  transform: scale(1.05);
 }
 
 .cta-conversion__bubble {
