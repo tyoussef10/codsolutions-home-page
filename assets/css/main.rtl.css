@@ -2133,7 +2133,140 @@ section#partners {
 
 .bg-light{
   background-color: #F4F2F2 !important;
-  
+
+}
+
+
+.cta-conversion__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  padding: 60px 40px;
+  text-align: center;
+  background: #d82a21;
+  color: #fff;
+  box-shadow: 0 18px 38px rgba(216, 42, 33, 0.25);
+}
+
+.cta-conversion__title {
+  color: #fff !important;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.cta-conversion__subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+}
+
+.cta-conversion__btn {
+  color: #d82a21;
+  border: none;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.cta-conversion__btn:hover {
+  color: #c5241d;
+  background-color: #f7f7f7;
+}
+
+.cta-conversion__bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  filter: blur(0.2px);
+}
+
+.bubble-1 {
+  width: 160px;
+  height: 160px;
+  top: 10px;
+  left: 16px;
+}
+
+.bubble-2 {
+  width: 120px;
+  height: 120px;
+  bottom: -20px;
+  right: 60px;
+}
+
+.bubble-3 {
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  left: 45%;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.bubble-4 {
+  width: 90px;
+  height: 90px;
+  top: 30px;
+  right: 22%;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.bubble-5 {
+  width: 50px;
+  height: 50px;
+  top: 120px;
+  left: 32%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.bubble-6 {
+  width: 110px;
+  height: 110px;
+  bottom: -10px;
+  left: 12%;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 768px) {
+  .cta-conversion__card {
+    padding: 45px 28px;
+  }
+
+  .cta-conversion__title {
+    font-size: 24px;
+  }
+
+  .cta-conversion__subtitle {
+    font-size: 16px;
+  }
+
+  .bubble-1 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .bubble-2 {
+    width: 100px;
+    height: 100px;
+    right: 30px;
+  }
+
+  .bubble-3 {
+    left: 40%;
+  }
+
+  .bubble-4 {
+    width: 70px;
+    height: 70px;
+    right: 18%;
+  }
+
+  .bubble-5 {
+    top: 100px;
+    left: 24%;
+  }
+
+  .bubble-6 {
+    width: 80px;
+    height: 80px;
+    left: 10%;
+  }
 }
 
 
