@@ -75,10 +75,9 @@ include('config.php');
                 <div class="row gy-4 justify-content-between">
                     <div class="mt-20 text-center d-flex flex-column justify-content-center align-items-center"
                         data-aos="fade-in">
-                        <h1 class="text-black">
-                            سواء كنت صاحب علامة تجارية أو مبتدئ — نوفر لك كل
-                            ما تحتاجه لتنجح في التجارة الإلكترونية
-                            <span> بالمغرب</span>
+                        <h1 class="text-black" style="line-height: 1.6;">
+                            مخزون موثوق، تأكيد إحترافي، تسليم سريع، وتحويل ارباح مرتين أسبوعيًا
+                            <!-- <span>بالمغرب</span> -->
                         </h1>
                         <!-- <p class="text-black">نحن فريق من المصممين الموهوبين نصنع مواقع ويب باستخدام Bootstrap</p> -->
                         <div class="row gx-3 gx-md-3 px-3 px-md-5 my-5">
@@ -121,38 +120,16 @@ include('config.php');
                             </div>
                         </div>
 
-                        <img src="assets/img/graphics/hero-video-img.png" style="max-width: 700px;" />
-
-                        <!-- <div id="custom-player-container">
-                            <div id="custom-player" data-plyr-provider="youtube" data-plyr-embed-id="bTqVqk7FSmY"></div>
-                        </div> -->
-
-                        <button
+                        <img src="assets/img/graphics/hero-video-img.png" title="coming soon" class="hero-video-img"
+                            style="max-width: 700px;" />
+                        <a href="<?= $sign_up_link; ?>" target="_blank"
                             class="btn fw-bold d-flex align-items-center justify-content-center border-2 rounded-pill px-4 py-3 mb-4 cta-btn mt-5">
-                            انضم إلينا
-                        </button>
-
+                            إنضم إلينا
+                        </a>
 
                     </div>
                 </div>
             </div>
-
-            <!-- TODO: decide whether to keep or delete (animated waves). If delete: don't forget to delete dependencies -->
-            <!-- <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                    viewBox="0 24 150 28 " preserveAspectRatio="none">
-                    <defs>
-                    <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
-                    </defs>
-                    <g class="wave1">
-                    <use xlink:href="#wave-path" x="50" y="3"></use>
-                    </g>
-                    <g class="wave2">
-                    <use xlink:href="#wave-path" x="50" y="0"></use>
-                    </g>
-                    <g class="wave3">
-                    <use xlink:href="#wave-path" x="50" y="9"></use>
-                    </g>
-                </svg> -->
         </section>
         <!-- /Hero Section -->
 
@@ -165,13 +142,12 @@ include('config.php');
                     <h2 class="fw-bold mb-2 black">
                         نوفّر لك
                         <span class="text-red">أكبر مخزون</span>
-
                         لمنتجات التجارة الإلكترونية في المغرب
                     </h2>
                     <!-- <p class="text-muted mb-0">
-                            واحد اثنان ثلاثة أربعة خمسة ستة سبعة ثمانية تسعة
-                            عشرة أحد عشر اثنا عشر
-                        </p> -->
+                        واحد اثنان ثلاثة أربعة خمسة ستة سبعة ثمانية تسعة
+                        عشرة أحد عشر اثنا عشر
+                    </p> -->
                 </div>
 
                 <img src="assets/img/graphics/categories.svg" style="margin: 0 auto;">
@@ -180,22 +156,12 @@ include('config.php');
         <!-- /Categories Section -->
 
 
-
-        <!-- Features Section -->
-
-        <!-- /Features Section -->
-
-        <!-- Stats Section -->
-
-        <!-- /Stats Section -->
-
         <!-- services Section -->
         <section id="services" class="services section overflow-hidden mt-5">
 
-
             <div class="text-center mb-5 mt-4 ">
                 <h2 class="fw-bold mb-2 service-headline">
-                    خدماتنا تغطي كل ما تحتاجه لتجارتك الإلكترونية بأعلى جودة
+                    خدمات متكاملة لنمو لا يتوقف
                 </h2>
             </div>
 
@@ -215,26 +181,27 @@ include('config.php');
                         </p>
                         <ul>
                             <li>
-                                <i class="bi bi-check"></i><span>
-                                    تأكيد الطلبات عبر الهاتف
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    تأكيد الطلبات عبر المكالمات الهاتفيّة و الواتساب
                                 </span>
                             </li>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تقديم خدمة عملاء عالية الجودة
+                                    العمل 7 أيام في الأسبوع بما في ذلك يوم الأحد
                                 </span>
                             </li>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تقليل الإلغاءات وتحسين معدلات التسليم
+                                    تأكيد الطلبات حتى الساعة 9:00 ليلًا
                                 </span>
                             </li>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    التعامل مع الاعتراضات بطريقة احترافية
+                                    فريق متخصص في تتبّع الطلبات حتى التسليم
                                 </span>
                             </li>
                         </ul>
@@ -250,11 +217,13 @@ include('config.php');
                     <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
 
                         <h3 class="service-headline">
-                            شحن سريع
+                            شحن سريع وذكي
                         </h3>
                         <p class="">
-                            نقدّم لك خدمة شحن سريع بجودة عالية بالتعاون مع أفضل شركات التوصيل في المغرب. نهتمّ بسرعة
-                            التسليم، التتبع، والتواصل مع العملاء حتى الاستلام، لضمان أفضل تجربة ممكنة.
+                            نقدّم لك خدمة شحن سريع وعالي الجودة، بالتعاون مع أفضل شركات التوصيل في المغرب. نختار لكل
+                            مدينة شركة الشحن التي تحقق أعلى نسب التسليم وأفضل معدلات الوصول، مع إعطاء الأولوية الدائمة
+                            للشركات الأعلى أداء والأقل ارتجاعا. نهتم بسرعة التسليم، وتتبع الطلبات، والتواصل مع العميل
+                            حتى الاستلام، لضمان تجربة سلسة وموثوقة في كل مدينة.
                         </p>
                         <ul>
                             <li>
@@ -291,25 +260,25 @@ include('config.php');
                     </div>
                     <div class="col-md-7" data-aos="fade-up">
                         <h3 class="service-headline">
-                            تخزين آمن
+                            نمتلك مستودعَين في الدار البيضاء وأكادير
                         </h3>
                         <p>
-                            يعدّ التخزين أساس نجاح أي متجر إلكتروني، لذلك نوفر لك مساحة تخزين آمنة ومتطورة، مجهزة بنظام
-                            مراقبة وكاميرات تعمل على مدار الساعة. يتم حفظ منتجاتك في بيئة محمية من الرطوبة، التلف،
-                            والضياع، لضمان جاهزيتها الكاملة عند الطلب.
+                            مستودعاتنا بيئة منظمة ومهيأة للتجارة الالكترونية، تعتمد على ترتيب دقيق للمخزون ونظام مراقبة
+                            بالكاميرات يعمل على مدار الساعة 24/7 لحماية المنتجات من التلف او الضياع. نمتلك مستودعين في
+                            المغرب: الاول في الدار البيضاء والثاني في اكادير، لتخرج الطلبات من اقرب موقع للعميل وتصل
+                            بسرعة اعلى وكفاءة افضل. مع الحفاظ على جودة التخزين لضمان جهوزية المنتجات عند كل طلب.
                         </p>
                         <ul>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    مراقبة 24/7
+                                    ترتيب دقيق للمخزون داخل المستودعات
                                 </span>
                             </li>
-
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تنظيم ذكي للمخزون
+                                    اختيار اقرب مستودع للعميل حسب المدينة
                                 </span>
                             </li>
                             <li>
@@ -328,38 +297,41 @@ include('config.php');
                         <img src="assets/img/graphics/services/fulfillment.svg" class="img-fluid" alt="" />
                     </div>
                     <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
-
-
                         <h3 class="service-headline">
-                            تلفيف جيد
+                            تلفيف احترافي للطلبات
                         </h3>
                         <p>
-                            نضمن لك خدمة تلفيف وتجهيز الطلبات بعناية، مع استخدام مواد عالية الجودة لحماية المنتج أثناء
-                            الشحن. يتم إعداد كل طلب بما يضمن وصوله للعميل بحالة ممتازة، مع تعزيز تجربة فتح الطرد
-                            (Unboxing Experience).
+                            نقدّم خدمة تلفيف وتجهيز الطلبات بعناية عالية، باستخدام مواد تغليف قوية ومناسبة لكل منتج،
+                            لضمان وصوله إلى العميل في حالة ممتازة، مع تعزيز تجربة فتح الطرد بشكل احترافي يرفع ثقة العميل
+                            ورضاه.
                         </p>
                         <ul>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تغليف قوي حسب نوع المنتج
+                                    استخدام مواد تغليف قوية ومناسبة لطبيعة المنتج
                                 </span>
                             </li>
 
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    التأكد من أمان المنتج داخل الطرد
+                                    اختيار أسلوب التغليف حسب حجم المنتج وقابليته للكسر أو الحساسية
                                 </span>
                             </li>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تجهيز سريع للطلبات اليومية
+                                    التأكد من أمان المنتج داخل الطرد قبل الشحن
+                                </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    تجهيز الطلبات اليومية بسرعة ودقة
                                 </span>
                             </li>
                         </ul>
-
                     </div>
                 </div>
                 <!-- Features Item -->
@@ -373,29 +345,34 @@ include('config.php');
                             الإستيراد من الصين إلى المغرب
                         </h3>
                         <p>
-                            نقدّم لك خدمة احترافية متكاملة للإستيراد من الصين إلى المغرب، مع إدارة سلسة لكل مراحل
-                            العملية من البحث عن المنتج إلى وصوله للمخزن. نعمل مع موردين موثوقين، ونضمن لك أفضل الأسعار
-                            وأعلى معايير الجودة، مع متابعة دقيقة لشحناتك حتى الإستلام.
+                            نقوم باستيراد منتجاتنا مباشرة من الصين، بمراقبة جودة دقيقة، لتوفير مخزوننا الخاص الذي يتجاوز
+                            1000 منتج جاهز للبيع داخل مستودعاتنا في المغرب. كما نقدّم للبائعين خدمة تزويد المنتجات
+                            (Sourcing) من خلال فريق متخصص في البحث عن الموردين الموثوقين، والتفاوض، ومتابعة الشحنات حتى
+                            الوصول الى المستودع.
                         </p>
                         <ul>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    التفاوض المباشر للحصول على أفضل سعر ممكن
+                                    نستورد منتجاتنا مباشرة من الصين لبناء مخزوننا الخاص
                                 </span>
                             </li>
-                            <i class="bi bi-check"></i>
-                            <span>
-                                التخليص الجمركي والدعم الإداري
-                            </span>
                             <li>
-
-
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    توفير خدمة (Sourcing) لعملاءنا
+                                </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    متابعة الشحنات مع شركاء النقل حتى الاستلام داخل المستودع
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <!-- Features Item -->
-
 
                 <div class="row gy-4 align-items-center features-item">
                     <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out">
@@ -403,33 +380,32 @@ include('config.php');
                     </div>
                     <div class="col-md-7 order-2 order-md-1" data-aos="fade-up">
                         <h3 class="service-headline">
-
                             تحويل الأموال مرتين أسبوعيًا
-
                         </h3>
                         <p>
-                            نضمن لك وصول أرباحك بسرعة من خلال نظام تحويل أموالك مرتين أسبوعيًا، حتى لا يتوقف عملك أو
-                            تتأخر عوائد حملاتك. الشفافية والسرعة في الدفع من أهم أولوياتنا.
+                            نوفّر نظام تحويل مالي سريع ومنتظم، نضمن من خلاله تسليم أرباحك مرتين أسبوعيًا، لتعزيز السيولة
+                            واستمرار حملاتك الإعلانية. نعتمد الشفافية في كل المعاملات، ونقدّم دعما مباشرا لمرافقتك
+                            في جميع تفاصيل التحويل والمستحقات.
                         </p>
-
                         <ul>
                             <li>
                                 <i class="bi bi-check"></i>
                                 <span>
-                                    تحويلات منتظمة كل أسبوع
+                                    تحويل الأرباح مرتين في الأسبوع دون تعطيل
                                 </span>
                             </li>
-                            <i class="bi bi-check"></i>
-                            <span>
-                                لا تأخير في المستحقات
-                            </span>
                             <li>
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    تحويلات منتظمة وشفافة قابلة للتتبّع
+                                </span>
                             </li>
-                            <i class="bi bi-check"></i>
-                            <span>
-                                دعم مباشر للاستفسارات المالية
-                            </span>
                             <li>
+                                <i class="bi bi-check"></i>
+                                <span>
+                                    دعم مباشر للاستفسارات المالية وحل المشكلات فورا
+                                </span>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -442,9 +418,9 @@ include('config.php');
 
 
         <!-- CTA Conversion Section -->
-        <section class="section cta-conversion my-5">
-            <div class="container">
-                <div class="cta-conversion__card">
+        <section class="section cta-conversion my-5 pt-3">
+            <div class="container mt-5">
+                <div class="cta-conversion__card mt-5">
                     <div class="cta-conversion__bubble bubble-1"></div>
                     <div class="cta-conversion__bubble bubble-2"></div>
                     <div class="cta-conversion__bubble bubble-3"></div>
@@ -452,18 +428,20 @@ include('config.php');
                     <div class="cta-conversion__bubble bubble-5"></div>
                     <div class="cta-conversion__bubble bubble-6"></div>
 
-                    <h2 class="cta-conversion__title mb-3">جاهز للتحول بتجارتك الإلكترونية؟</h2>
+                    <h2 class="cta-conversion__title mb-3">
+                        هل أنت مستعد لإطلاق مشروع تجارة إلكترونية في السوق المغربي؟
+                    </h2>
                     <p class="cta-conversion__subtitle mb-4">
-                        انضم إلى آلاف البائعين المتحولين واستفد من حلولنا المتقدمة
+                        إنضم إلى مجتمع البائعين الذين بدؤوا التأسيس الصحيح
                     </p>
-                    <button class="btn btn-light fw-bold rounded-pill px-4 py-2 cta-conversion__btn">
-                        ابدأ رحلتك الآن
-                    </button>
+                    <a href="<?php echo $sign_up_link; ?>" target="_blank"
+                        class="btn btn-light fw-bold rounded-pill px-4 py-2 cta-conversion__btn">
+                        إبدأ رحلتك الآن
+                    </a>
                 </div>
             </div>
         </section>
         <!-- /CTA Conversion Section -->
-
 
 
         <!-- Partners Section -->
@@ -473,10 +451,6 @@ include('config.php');
 
                 <div class="container text-center mb-5">
                     <h2 class="fw-bold mb-2 service-headline">شركاؤنا</h2>
-                    <!-- <p class="text-muted mb-0">
-                            واحد اثنان ثلاثة أربعة خمسة ستة سبعة ثمانية تسعة
-                            عشرة أحد عشر اثنا عشر
-                        </p> -->
                 </div>
                 <div class="marquee-container" style="direction: ltr">
                     <div class="marquee-content">
@@ -535,7 +509,7 @@ include('config.php');
                         </p>
                         <p class="mt-3">
                             <strong>الهاتف: </strong>
-                            <span dir="ltr">+212 6 98 81 32 40 </span>
+                            <a href="tel:+212698813240" dir="ltr" class="phone-link">+212 6 98 81 32 40 </a>
                         </p>
                         <p>
                             <strong>البريد إلكتروني:</strong>
@@ -543,12 +517,18 @@ include('config.php');
                         </p>
                     </div>
                     <div class="social-links d-flex mt-4">
-                        <a target="_blank" href="https://www.facebook.com/codsolutions.ma/"><i
-                                class="bi bi-facebook"></i></a>
-                        <a target="_blank" href="https://www.instagram.com/cod.solutions.official/"><i
-                                class="bi bi-instagram"></i></a>
-                        <a target="_blank" href="https://www.youtube.com/@COD-Solutions"><i
-                                class="bi bi-youtube"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/codsolutions.ma/"
+                            style="background-color: #f5f2f3;">
+                            <i class="bi bi-facebook" style="color: #3b5998;"></i>
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/cod.solutions.official/"
+                            style="background-color: #f5f2f3;">
+                            <i class="bi bi-instagram" style="color: #E1306C;"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/@COD-Solutions"
+                            style="background-color: #f5f2f3;">
+                            <i class="bi bi-youtube" style="color: #FF0000;"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -564,17 +544,15 @@ include('config.php');
                 </div>
 
                 <div class="col-lg-2 col-md-3 footer-links">
-                    <h4>خدماتنا</h4>
-                    <ul>
-                        <li><a href="#">تصميم الويب</a></li>
-                        <li><a href="#">تطوير الويب</a></li>
-                        <li><a href="#">إدارة المنتجات</a></li>
-                        <li><a href="#">التسويق</a></li>
-                        <li><a href="#">التصميم الجرافيكي</a></li>
-                    </ul>
+                    <h4>تركيزنا المغرب</h4>
+                    <div>
+                        نركز على سوق واحد يمتلك فرصا تجارية ضخمة وإمكانات نمو عالية، لذلك صممنا خدماتنا خصيصا للتجارة
+                        الالكترونية بالمغرب، عبر تنفيذ سريع وتوصيل ادق.
+
+                    </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12 text-lg-end ps-3 ">
+                <div class="col-lg-4 col-md-12 text-center text-lg-end ps-3 ">
                     <img src="assets/img/graphics/logo/footer-logo.png" class="pt-4" style="max-width: 200px;" />
                 </div>
             </div>
@@ -582,7 +560,7 @@ include('config.php');
 
         <div class="container copyright text-center mt-4 pb-3">
             <p>
-                <strong class="px-1 sitename">COD SOLUTIONS ©</strong>
+                <strong class="px-1 sitename">COD SOLUTIONS © <?php echo date('Y'); ?></strong>
                 <span>جميع الحقوق محفوظة</span>
             </p>
         </div>

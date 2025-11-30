@@ -253,6 +253,7 @@ h6 {
 .navmenu .nav-auth-btn-solid:focus:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
   color: var(--contrast-color);
+  transform: scale(1.05);
 
 }
 
@@ -603,9 +604,22 @@ h6 {
   transition: 0.3s;
 }
 
+.footer .social-links a i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+
+
+}
+
+
 .footer .social-links a:hover {
   color: #ffff;
-  border-color: var(--accent-color);
+  background-color: color-mix(in srgb, var(--default-color), transparent 50%);
+  scale: 1.05;
 }
 
 .footer h4 {
@@ -976,9 +990,8 @@ h6 {
 }
 
 .hero .cta-btn:hover {
-  background-color: #fdf9f8;
-  color: #D82A21;
   transform: scale(1.05);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 10%);
 
 }
 
@@ -1496,6 +1509,17 @@ section#partners {}
 .features .features-item:hover h3 a {
   color: var(--accent-color);
 }
+
+
+.features-item p {
+
+  text-indent: 20px;
+  /* Adjust as needed for desired spacing */
+
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
@@ -2135,17 +2159,15 @@ section#partners {}
 
 #hero {
   padding: 170px 0;
-  /* background-color: #1A1A1A; */
-  /* background-image:
-    radial-gradient(at 50% 40%, #D82A21 0px, transparent 50%),
-    radial-gradient(at 0% 0%, #1A1A1A 0px, transparent 50%); */
 }
 
 
 
-#hero img {
-  /* filter: brightness(0) invert(1); */
+.hero-video-img:hover {
+  cursor: pointer;
 }
+
+
 
 .mt-20 {
   margin-top: 90px;
@@ -2364,4 +2386,16 @@ section#partners {}
 
   color: #ffffff;
 
+}
+
+.phone-link {
+
+  color: #ffffff;
+
+}
+
+.phone-link:hover {
+
+  color: #ffffff;
+  text-decoration: underline;
 }
