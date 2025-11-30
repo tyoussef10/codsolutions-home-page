@@ -75,13 +75,13 @@ include('config.php');
                 <div class="row gy-4 justify-content-between">
                     <div class="mt-20 text-center d-flex flex-column justify-content-center align-items-center"
                         data-aos="fade-in">
-                        <h1 class="text-black" style="line-height: 1.6;">
+                        <h1 class="text-black" style="line-height: 1.6;" data-aos="zoom-in">
                             مخزون موثوق، تأكيد إحترافي، تسليم سريع، وتحويل ارباح مرتين أسبوعيًا
                             <!-- <span>بالمغرب</span> -->
                         </h1>
                         <!-- <p class="text-black">نحن فريق من المصممين الموهوبين نصنع مواقع ويب باستخدام Bootstrap</p> -->
                         <div class="row gx-3 gx-md-3 px-3 px-md-5 my-5">
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="100">
 
                                 <img src="assets/img/graphics/importation.svg" alt="Import from China"
                                     style="max-width: 100px;">
@@ -90,28 +90,28 @@ include('config.php');
                                     الإستيراد من الصين إلى المغرب
                                 </p>
                             </div>
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="200">
                                 <img src="assets/img/graphics/warehousing.svg" alt="Secure warehousing"
                                     style="max-width: 100px;">
                                 <p class="text-black">تخزين آمن</p>
                             </div>
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="300">
 
                                 <img src="assets/img/graphics/call-center.svg" alt="Advanced call center support"
                                     style="max-width: 100px;">
                                 <p class="text-black">مركز اتصال متطور</p>
                             </div>
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="400">
                                 <img src="assets/img/graphics/fulfillment.svg" alt="Careful packaging"
                                     style="max-width: 100px;">
                                 <p class="text-black">تلفيف جيد</p>
                             </div>
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="500">
                                 <img src="assets/img/graphics/shipping.svg" alt="Fast shipping"
                                     style="max-width: 100px;">
                                 <p class="text-black">شحن سريع</p>
                             </div>
-                            <div class="col-6 col-sm-4 col-md-2">
+                            <div class="col-6 col-sm-4 col-md-2" data-aos="fade-up" data-aos-delay="600">
                                 <img src="assets/img/graphics/money-transfer.svg" alt="Money transferred twice weekly"
                                     style="max-width: 100px;">
                                 <p class="text-black">
@@ -122,7 +122,7 @@ include('config.php');
 
                         <img src="assets/img/graphics/hero-video-img.png" title="coming soon" class="hero-video-img"
                             style="max-width: 700px;" />
-                        <a href="<?= $sign_up_link; ?>" target="_blank"
+                        <a href="<?= $sign_up_link; ?>" target="_blank" data-aos="zoom-out" data-aos-delay="100"
                             class="btn fw-bold d-flex align-items-center justify-content-center border-2 rounded-pill px-4 py-3 mb-4 cta-btn mt-5">
                             إنضم إلينا
                         </a>
@@ -139,10 +139,9 @@ include('config.php');
         <section class="categories-section py-5 bg-light">
             <div class="container">
                 <div class="text-center mb-5">
-                    <h2 class="fw-bold mb-2 black">
-                        نوفّر لك
-                        <span class="text-red">أكبر مخزون</span>
-                        لمنتجات التجارة الإلكترونية في المغرب
+                    <h2 class="fw-bold mb-2 black" data-aos="zoom-in" data-aos-delay="100">
+                        نوفر لك مخزونا ضخما يواكب تغيّر السوق المغربي ويتم تحديثه باستمرار
+
                     </h2>
                     <!-- <p class="text-muted mb-0">
                         واحد اثنان ثلاثة أربعة خمسة ستة سبعة ثمانية تسعة
@@ -150,7 +149,8 @@ include('config.php');
                     </p> -->
                 </div>
 
-                <img src="assets/img/graphics/categories.svg" style="margin: 0 auto;">
+                <img src="assets/img/graphics/categories.svg" data-aos="zoom-out" data-aos-delay="100"
+                    style="margin: 0 auto;">
             </div>
         </section>
         <!-- /Categories Section -->
@@ -160,7 +160,7 @@ include('config.php');
         <section id="services" class="services section overflow-hidden mt-5">
 
             <div class="text-center mb-5 mt-4 ">
-                <h2 class="fw-bold mb-2 service-headline">
+                <h2 class="fw-bold mb-2 service-headline" data-aos="zoom-in" data-aos-delay="100">
                     خدمات متكاملة لنمو لا يتوقف
                 </h2>
             </div>
@@ -418,7 +418,7 @@ include('config.php');
 
 
         <!-- CTA Conversion Section -->
-        <section class="section cta-conversion my-5 pt-3">
+        <section class="section cta-conversion my-5 pt-3" data-aos="zoom-in" data-aos-delay="200">
             <div class="container mt-5">
                 <div class="cta-conversion__card mt-5">
                     <div class="cta-conversion__bubble bubble-1"></div>
@@ -447,12 +447,12 @@ include('config.php');
         <!-- Partners Section -->
 
         <section id="partners" class="partners section py-5 bg-light mt-5">
-            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+            <div class="container-fluid">
 
                 <div class="container text-center mb-5">
-                    <h2 class="fw-bold mb-2 service-headline">شركاؤنا</h2>
+                    <h2 class="fw-bold mb-2 service-headline" data-aos="zoom-in" data-aos-delay="100">شركاؤنا</h2>
                 </div>
-                <div class="marquee-container" style="direction: ltr">
+                <div class="marquee-container" style="direction: ltr" data-aos="fade-up" data-aos-delay="100">
                     <div class="marquee-content">
                         <!-- Sequence 1 of Logos: (Total 7 items) -->
                         <div class="logo-item">
