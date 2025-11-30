@@ -1127,8 +1127,6 @@ h6 {
 # partners Section
 --------------------------------------------------------------*/
 
-section#partners {}
-
 .marquee-container {
   width: 100%;
   overflow: hidden;
@@ -2145,9 +2143,6 @@ section#partners {}
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 
 /* #hero {
@@ -2200,7 +2195,6 @@ section#partners {}
   background-color: #FFFFFF !important;
 }
 
-.text-black {}
 
 .text-red {
 
