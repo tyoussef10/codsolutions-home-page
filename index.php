@@ -59,7 +59,7 @@ include('config.php');
                         <a class="btn nav-auth-btn nav-auth-btn-ghost" href="<?= $login_link; ?>">تسجيل الدخول</a>
                     </li>
                     <li class="nav-auth-item">
-                        <a class="btn nav-auth-btn nav-auth-btn-solid" href="<?= $sign_up_link; ?> ?>">إنشاء حساب</a>
+                        <a class="btn nav-auth-btn nav-auth-btn-solid" href="<?= $sign_up_link; ?>">إنشاء حساب</a>
                     </li>
                     <!-- <li><a href="#contact">تواصل معنا</a></li> -->
                 </ul>
