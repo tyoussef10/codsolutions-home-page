@@ -442,6 +442,83 @@ include('config.php');
         <!-- /CTA Conversion Section -->
 
 
+        <!-- FAQ Section -->
+        <section id="faq" class="faq section py-5">
+            <div class="container" data-aos="fade-up">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-2 service-headline">أسئلة شائعة</h2>
+                    <!-- <p class="text-muted">إجابات على أكثر الأسئلة تكرارًا لمساعدتك في فهم خدماتنا بشكل أفضل</p> -->
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="accordion accordion-flush" id="faqlist">
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-1">
+                                        <span class="num">1.</span>
+                                        ⁠ ⁠لماذا تعتبر منصة COD Solutions الأقوى والأفضل في المغرب؟
+                                    </button>
+                                </h3>
+                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+
+                                        لاننا نمتلك مخزونا ضخما يتجاوز 1000 منتج جاهز، يتم تحديثه باستمرار، مع نظام
+                                        تاكيد احترافي عبر الهاتف والواتساب حتى التاسعة ليلا، وفريق متخصص في تتبع الطلبات
+                                        حتى التسليم. نختار لكل مدينة شركة الشحن التي تحقق اعلى معدلات التسليم فيها،
+                                        ونعطي الاولوية دائما للشركاء الاعلى اداء والاقل ارتجاعا. كما نضمن تحويل الارباح
+                                        بسرعة وشفافية مرتين في الاسبوع، مع خدمة متواصلة 7 ايام في الاسبوع بما في ذلك يوم
+                                        الاحد.
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-2">
+                                        <span class="num">2.</span>
+                                        هل يمكنني العمل مع COD Solutions حتى لو كنت مبتدئا في التجارة الالكترونية؟
+                                    </button>
+                                </h3>
+                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+                                        اكيد، يمكنك البدء معنا حتى لو كنت مبتدئا، فنحن نوفر لك كل الادوات والدعم اللازم
+                                        لتأسيس تجارتك ونموها في السوق المغربي بثقة واحتراف، حتى لو كنت مبتدئا في التجارة
+                                        الإلكترونية
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h3 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-content-3">
+                                        <span class="num">3.</span>
+                                        ⁠ اذا كنت املك المنتج، هل يمكنني تخزينه وشحنه من مستودعاتكم؟
+                                    </button>
+                                </h3>
+                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                                    <div class="accordion-body">
+
+
+                                        نعم، نستلم منتجك، نضيفه للمخزون، ثم نجهزه ونشحنه عند كل طلب بكل كفاءة وسرعة.
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /FAQ Section -->
+
         <!-- Partners Section -->
 
         <section id="partners" class="partners section py-5 bg-light mt-5">
