@@ -133,8 +133,6 @@ include('config.php');
         </section>
         <!-- /Hero Section -->
 
-
-
         <!-- Categories Section -->
         <section class="categories-section py-5 bg-light">
             <div class="container">
